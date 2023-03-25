@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: Norse-Bold, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url('./images/willian-justen-de-vasconcellos-1vkxNZxsDp0-unsplash.jpg');
+    width: 35vw;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+}
+
+.firstSection {
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.secondSection {
+    height: 33vh;
+}
+
+.formMainDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+.thirdSection {
+    height: 33vh;
+}
