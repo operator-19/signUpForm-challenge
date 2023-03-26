@@ -12,27 +12,69 @@
 <body>
     <div class="container">
         <div class="left">
-            <h1>test</h1>
+            <div class="iconContainer">
+                <div class="icon">
+                    <img class="iconImage" src="./images/odin-lined.png" alt="odin logo">
+                    <h1>odin</h1>
+                </div>
+            </div>
+            <div class="footer">
+                ©Copyright
+            </div>
         </div>
         <div class="right">
             <div class="firstSection">
-                <h2>
+                <h3>
                     This is not a real onlince service! You know you need something <br>
                     like this in your life to help you realize your deepest dreams <br>
                     Sign up <em>now</em>to get started.
                     <br>
                     <br>
                     You <em>know</em> you want to.
-                </h2>
+                </h3>
             </div>
-            <div class="secondSection">
-                <h3>Let's do this!</h3>
-                <form action="" method="get" class="formMainDiv">
-                    <div class="formDivs">form1</div>
-                    <div class="formDivs">form2</div>
-                </form>
+            <form action="" method="get">
+                <div class="secondSection">
+                    <h3 style="margin-left: 50px; padding-top: 10px;">Let's do this!</h3>
+                    <div class="formMainDiv">
+                        <div class="formDivs">
+                            <div class="formDiv">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="first_name">
+                            </div>
+                            <div class="formDiv">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="formDiv">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required>
+                                <p id="error">*password do not match</p>
+                            </div>
+                        </div>
+                        <div class="formDivs">
+                            <div class="formDiv">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="last_name">
+                            </div>
+                            <div class="formDiv">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="tel" id="phoneNumber" name="phoneNumber">
+                            </div>
+                            <div class="formDiv">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="confirmPassword" id="confirmPassword" name="confirmPassword" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdSection">
+                    <button type="submit" class="btn">Create Account</button>
+                </div>
+            </form>
+            <div class="hyperlink">
+                <p>Already have an account? <a href="">Log In</a> </p>
             </div>
-            <div class="thirdSection">3</div>
         </div>
     </div>
     <script src="./script.js"></script>
